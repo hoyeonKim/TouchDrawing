@@ -21,6 +21,7 @@
 		00B017DA187C2C0300D6F349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B017BC187C2C0300D6F349 /* UIKit.framework */; };
 		00B017E2187C2C0300D6F349 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B017E0187C2C0300D6F349 /* InfoPlist.strings */; };
 		00B017E4187C2C0300D6F349 /* p273Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B017E3187C2C0300D6F349 /* p273Tests.m */; };
+		00B017F2187C2D4000D6F349 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B017F1187C2D4000D6F349 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00B017DF187C2C0300D6F349 /* p273Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "p273Tests-Info.plist"; sourceTree = "<group>"; };
 		00B017E1187C2C0300D6F349 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00B017E3187C2C0300D6F349 /* p273Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p273Tests.m; sourceTree = "<group>"; };
+		00B017F0187C2D4000D6F349 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		00B017F1187C2D4000D6F349 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				00B017CE187C2C0300D6F349 /* ViewController.m */,
 				00B017D0187C2C0300D6F349 /* Images.xcassets */,
 				00B017BF187C2C0300D6F349 /* Supporting Files */,
+				00B017F0187C2D4000D6F349 /* DrawingView.h */,
+				00B017F1187C2D4000D6F349 /* DrawingView.m */,
 			);
 			path = p273;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				00B017CF187C2C0300D6F349 /* ViewController.m in Sources */,
 				00B017C9187C2C0300D6F349 /* AppDelegate.m in Sources */,
 				00B017C5187C2C0300D6F349 /* main.m in Sources */,
+				00B017F2187C2D4000D6F349 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
